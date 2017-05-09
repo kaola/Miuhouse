@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_content"
+    android:orientation="vertical">
+
+  <include
+      layout="@layout/include_head_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/margin_10dp"
+      android:text="我的功能库"
+      android:textColor="@color/btn_enabled_false"
+      android:textSize="@dimen/text_13sp"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <LinearLayout style="@style/home_option_item"
+        android:id="@+id/linear_jiaofei"
+    >
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_jiaofei"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="物业缴费"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_baoxiu"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_baoxiu"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="报修"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_option_item"
+        android:id="@+id/linear_passport"
+    >
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_fangke"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="访客通行"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_menjin"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="门禁"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_property_placard"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_gonggao"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+
+          android:text="物业公告"/>
+    </LinearLayout>
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/linear_community_service"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_xqwuyou"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:text="小区无忧"/>
+    </LinearLayout>
+    <LinearLayout style="@style/home_option_item"
+        android:id="@+id/linear_express"
+    >
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_kuaidi"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="快递代收"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_option_item"
+        android:id="@+id/linear_buy"
+    >
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_maifang"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="买房"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_option_item"
+        android:id="@+id/linear_rent"
+    >
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_zhaozufang"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="租房"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/newHouse"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_xinfang"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:text="新房"/>
+    </LinearLayout>
+  </LinearLayout>
+
+  <!--<TextView-->
+  <!--android:layout_width="wrap_content"-->
+  <!--android:layout_height="wrap_content"-->
+  <!--android:padding="@dimen/margin_10dp"-->
+  <!--android:text="更多"-->
+  <!--android:textColor="@color/btn_enabled_false"-->
+  <!--android:textSize="@dimen/text_13sp" />-->
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+    <LinearLayout
+        android:id="@+id/linear_snzx"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_zhuangxiu"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:text="室内装修"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_glcs"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_changshi"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:text="购房常识"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_tousu"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_tousu"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="投诉"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_option_item"
+        android:id="@+id/linear_praise"
+    >
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_biaoyangwuye"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="表扬物业"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_hujiaowuye"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="呼叫物业"/>
+    </LinearLayout>
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+  >
+
+    <LinearLayout
+        android:id="@+id/linear_community_news"
+        style="@style/home_option_item">
+
+      <ImageView
+          android:layout_width="37dp"
+          android:layout_height="37dp"
+          android:src="@mipmap/home_ico_dongtai"/>
+
+      <TextView
+          style="@style/home_option_item_text"
+
+          android:text="社区动态"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:background="@drawable/list_item_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="13dp"
+        android:paddingTop="13dp">
+
+
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>
